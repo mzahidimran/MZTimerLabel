@@ -1,16 +1,15 @@
 // swift-tools-version:5.3
-
 import PackageDescription
 
 let package = Package(
     name: "MZTimerLabel",
     platforms: [
-        .iOS(.v10),
+        .iOS(.v13),
     ],
     products: [
         .library(
             name: "MZTimerLabel",
-            targets: ["MZTimerLabel"]),
+            targets: ["MZTimerLabel"])
     ],
     dependencies: [
         // no dependencies
@@ -18,6 +17,6 @@ let package = Package(
     targets: [
         .target(
             name: "MZTimerLabel",
-            dependencies: []),
+            dependencies: [])
     ]
 )
