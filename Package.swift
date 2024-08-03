@@ -17,6 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "MZTimerLabel",
-            dependencies: [])
+            dependencies: [], 
+            path: "Sources/MZTimerLabel",
+            publicHeadersPath: "ObjC")
     ]
 )
